@@ -10,7 +10,7 @@ main {
 }
 
 form {
-    width: 20%;
+    width: 30%;
     padding: 2rem;
     background-color: #f2f2f2;
     border-radius: 10px;
@@ -23,6 +23,8 @@ div {
 
 div>h1 {
     text-align: center;
+    font-size: 2.5rem;
+    padding: 0 3rem 3rem;
 }
 
 input {
@@ -32,8 +34,14 @@ input {
     border: solid 1px #000;
 }
 
+.btn {
+    display: flex;
+    align-items: center;
+}
+
 #btn {
-    margin: 2rem;
+    margin: 2rem auto;
+    width: 120px;
     padding: 0.5rem;
     text-transform: uppercase;
     background-color: rgb(167, 167, 238);
